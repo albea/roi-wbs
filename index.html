@@ -4,20 +4,65 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1>Approximate timers</h1>
+  <div class="timers rift">
 
-  <ul class="post-list">
-    {% for post in site.posts %}
+    <h2>Triteal Rift</h2>
+    <blockquote>These are unconfirmed as of now</blockquote>
+    <ul>
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
+       <time>2.45am CET</time>
       </li>
-    {% endfor %}
-  </ul>
+      <li>
+       <time>6.45pm CET</time>
+      </li>
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+
+  <h1>Spawn locations</h1>
+  <div class="locations rift">
+
+    <h2>Flam</h2>
+    <div>
+      <p>Spawn location: North West | Top left</p>
+      <p>Channel order: 1 2 3</p>
+    </div>
+
+
+    <h2>Ikeria</h2>
+    <div>
+      <p>Spawn location: South East | Bottom right</p>
+      <p>Channel order: 3 2 1</p>
+    </div>
+
+    <h2>Faudrus</h2>
+    <div>
+      <p>Spawn location: North East | Top right</p>
+      <p>Channel order: 1 3 2</p>
+    </div>
+
+    <h2>Kelsier</h2>
+    <div>
+      <p>Spawn location: South West | Bottom left</p>
+      <p>Channel order: 1 2 3</p>
+    </div>
+
+  </div>
+
+  <h1>Other information</h1>
+  <div class="information rift">
+
+    <p>
+      Flam seems to have quite a low amount of hp, thus he'll be down very fast.
+    </p>
+
+    <p>
+      Kelsier on channel 3 will have ~30-50 minutes delay after channel 2 first spawns.<br>
+      This might be fixed in the next future update.<br>
+      During that time Merciless Jeranin should be spawning at Divinity Shore.
+    </p>
+
+  </div>
 
 </div>
